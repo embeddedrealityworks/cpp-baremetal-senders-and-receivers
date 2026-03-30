@@ -4,7 +4,7 @@ project(
   version: '0.1.0',
   license: 'MIT',
   meson_version: '>=1.1.0',
-  default_options: ['cpp_std=c++20']
+  default_options: ['cpp_std=c++23']
 )
 
 mp11_sub = subproject('mp11')
